@@ -1,0 +1,9 @@
+[flavor]
+dark = "nord"
+
+
+[spot]
+border   = { fg = "#D8DEE9" }
+title    = { fg = "#ECEFF4" }
+tbl_col  = { fg = "#ECEFF4", bg = "#3B4252" }
+tbl_cell = { fg = "#ECEFF4", bg = "#4C566A" }
