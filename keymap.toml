@@ -137,6 +137,7 @@ keymap = [
   { on = [ "g", "3" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[1] UQ/[1.1] Material/Year2/Y2S2/MATH1052", desc = "go to MATH1052" },
   { on = [ "g", "4" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[1] UQ/[1.1] Material/Year2/Y2S2/STAT2003", desc = "go to STAT2003" },
   { on = [ "g", "e" ],       run = "cd /Volumes", desc = "go to External Drive" },
+  { on = [ "g", "s" ],       run = "cd -- /Users/parunthummadetsak/Desktop/Screenshot", desc = "go to Screenshot" },
   
 
 	# Tabs
