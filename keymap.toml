@@ -93,6 +93,9 @@ keymap = [
 	{ on = [ "m", "o" ], run = "linemode owner",       desc = "Linemode: owner" },
 	{ on = [ "m", "n" ], run = "linemode none",        desc = "Linemode: none" },
 
+  # 7zip
+  { on = [ "c", "z" ], run = "shell '7zz a \".7z\" %s' --interactive --cursor=7", desc = "Compress into a .7z archive" },
+
 	# Copy
 	{ on = [ "c", "c" ], run = "copy path",             desc = "Copy the file path" },
 	{ on = [ "c", "d" ], run = "copy dirname",          desc = "Copy the directory path" },
@@ -132,10 +135,10 @@ keymap = [
 	{ on = [ "g", "<Space>" ], run = "cd --interactive", desc = "Jump interactively" },
 	{ on = [ "g", "f" ],       run = "follow",           desc = "Follow hovered symlink" },
   # uses -- and c c (default copy) for any path
-  { on = [ "g", "1" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[1] UQ/[1.1] Material/Year2/Y2S2/COMP2048", desc = "go to COMP2048" },
-  { on = [ "g", "2" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[1] UQ/[1.1] Material/Year2/Y2S2/DECO1400", desc = "go to DECO1400" },
-  { on = [ "g", "3" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[1] UQ/[1.1] Material/Year2/Y2S2/MATH1052", desc = "go to MATH1052" },
-  { on = [ "g", "4" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[1] UQ/[1.1] Material/Year2/Y2S2/STAT2003", desc = "go to STAT2003" },
+  { on = [ "g", "1" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[1] UQ/[1.1] Material/Year3/Y3S1/COMP2140", desc = "go to COMP2140" },
+  { on = [ "g", "2" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[1] UQ/[1.1] Material/Year3/Y3S1/COMP3506", desc = "go to COMP3506" },
+  { on = [ "g", "3" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[1] UQ/[1.1] Material/Year3/Y3S1/DECO2500", desc = "go to DECO2500" },
+  { on = [ "g", "4" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[1] UQ/[1.1] Material/Year3/Y3S1/INFS3208", desc = "go to INFS3208" },
   { on = [ "g", "e" ],       run = "cd /Volumes", desc = "go to External Drive" },
   { on = [ "g", "s" ],       run = "cd -- /Users/parunthummadetsak/Desktop/Screenshot", desc = "go to Screenshot" },
   
