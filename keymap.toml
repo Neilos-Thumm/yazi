@@ -132,6 +132,7 @@ keymap = [
 	{ on = [ "g", "c" ],       run = "cd ~/.config",     desc = "Go ~/.config" },
 	{ on = [ "g", "d" ],       run = "cd ~/Documents",   desc = "Go ~/Documents" },
 	{ on = [ "g", "l" ],       run = "cd ~/Downloads",   desc = "Go ~/Downloads" },
+	{ on = [ "g", "a" ],       run = "cd ~/Documents/ai",   desc = "Go ~/ai" },
 	{ on = [ "g", "<Space>" ], run = "cd --interactive", desc = "Jump interactively" },
 	{ on = [ "g", "f" ],       run = "follow",           desc = "Follow hovered symlink" },
   # uses -- and c c (default copy) for any path
