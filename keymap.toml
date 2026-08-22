@@ -132,7 +132,6 @@ keymap = [
 	{ on = [ "g", "c" ],       run = "cd ~/.config",     desc = "Go ~/.config" },
 	{ on = [ "g", "d" ],       run = "cd ~/Documents",   desc = "Go ~/Documents" },
 	{ on = [ "g", "l" ],       run = "cd ~/Downloads",   desc = "Go ~/Downloads" },
-	{ on = [ "g", "a" ],       run = "cd ~/Documents/ai",   desc = "Go ~/ai" },
 	{ on = [ "g", "<Space>" ], run = "cd --interactive", desc = "Jump interactively" },
 	{ on = [ "g", "f" ],       run = "follow",           desc = "Follow hovered symlink" },
   # uses -- and c c (default copy) for any path
@@ -142,6 +141,8 @@ keymap = [
   { on = [ "g", "4" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[1] UQ/[1.1] Material/Year3/Y3S1/INFS3208", desc = "go to INFS3208" },
   { on = [ "g", "e" ],       run = "cd /Volumes", desc = "go to External Drive" },
   { on = [ "g", "s" ],       run = "cd -- /Users/parunthummadetsak/Desktop/Screenshot", desc = "go to Screenshot" },
+	{ on = [ "g", "a" ],       run = "cd ~/Documents/ai",   desc = "Go ~/ai" },
+	{ on = [ "g", "p" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[2] Project",   desc = "Go to Project" },
   
 
 	# Tabs
