@@ -94,16 +94,11 @@ image_bound      = [ 10000, 10000 ]
 suppress_preload = false
 
 [plugin]
-prepend_fetchers = [
-	{ url = "*",  run = "git", group = "git" },
-	{ url = "*/", run = "git", group = "git" },
-]
 fetchers = [
 	# Mimetype
-	{ url = "*/",         run = "mime.dir",    prio = "high", group = "mime" },
-	{ url = "local://*",  run = "mime.local",  prio = "high", group = "mime" },
-	{ url = "trash://*",  run = "mime.trash",  prio = "high", group = "mime" },
-	{ url = "remote://*", run = "mime.remote", prio = "high", group = "mime" },
+	{ id = "mime", url = "*/",         run = "mime.dir", prio = "high" },
+	{ id = "mime", url = "local://*",  run = "mime.local", prio = "high" },
+	{ id = "mime", url = "remote://*", run = "mime.remote", prio = "high" },
 ]
 spotters = [
 	{ url = "*/", run = "folder" },

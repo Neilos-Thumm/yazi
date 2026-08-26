@@ -7,3 +7,16 @@ border   = { fg = "#D8DEE9" }
 title    = { fg = "#ECEFF4" }
 tbl_col  = { fg = "#ECEFF4", bg = "#3B4252" }
 tbl_cell = { fg = "#ECEFF4", bg = "#4C566A" }
+
+[git]
+# Fixed-width (2-cell) ASCII signs so the mtime column stays aligned,
+# instead of the plugin's default Nerd Font glyphs of varying width.
+unknown_sign   = "  "
+ignored_sign   = "I "
+untracked_sign = "? "
+unstaged_sign  = "M "
+staged_sign    = "S "
+added_sign     = "A "
+deleted_sign   = "D "
+updated_sign   = "U "
+clean_sign     = "  "
