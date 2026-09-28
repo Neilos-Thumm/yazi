@@ -131,8 +131,8 @@ keymap = [
 	{ on = [ "g", "h" ],       run = "cd ~",             desc = "Go home" },
 	{ on = [ "g", "c" ],       run = "cd ~/.config",     desc = "Go ~/.config" },
 	{ on = [ "g", "d" ],       run = "cd ~/Documents",   desc = "Go ~/Documents" },
-	{ on = [ "g", "l" ],       run = "cd ~/Downloads",   desc = "Go ~/Downloads" },
 	{ on = [ "g", "<Space>" ], run = "cd --interactive", desc = "Jump interactively" },
+{ on = [ "g", "l" ],       run = "cd ~/Downloads",   desc = "Go ~/Downloads" },
 	{ on = [ "g", "f" ],       run = "follow",           desc = "Follow hovered symlink" },
   # uses -- and c c (default copy) for any path
   { on = [ "g", "1" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[1] UQ/[1.1] Material/Year3/Y3S1/COMP2140", desc = "go to COMP2140" },
@@ -143,6 +143,8 @@ keymap = [
   { on = [ "g", "s" ],       run = "cd -- /Users/parunthummadetsak/Desktop/Screenshot", desc = "go to Screenshot" },
 	{ on = [ "g", "a" ],       run = "cd ~/Documents/ai",   desc = "Go ~/ai" },
 	{ on = [ "g", "p" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[2] Project",   desc = "Go to Project" },
+	{ on = [ "g", "r" ],       run = "cd -- /Users/parunthummadetsak/Documents/[6-10] Documents/[8] Resume & Portfolio",   desc = "Go to Resume" },
+	{ on = [ "g", "u" ],       run = "cd -- /Users/parunthummadetsak/.claude",   desc = "Go to .claude" },
   
 
 	# Tabs
