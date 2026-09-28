@@ -145,6 +145,7 @@ keymap = [
 	{ on = [ "g", "p" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[2] Project",   desc = "Go to Project" },
 	{ on = [ "g", "r" ],       run = "cd -- /Users/parunthummadetsak/Documents/[6-10] Documents/[8] Resume & Portfolio",   desc = "Go to Resume" },
 	{ on = [ "g", "u" ],       run = "cd -- /Users/parunthummadetsak/.claude",   desc = "Go to .claude" },
+	{ on = [ "g", "b" ],       run = "cd -- /Users/parunthummadetsak/.local/bin",   desc = "Go to binaries" },
   
 
 	# Tabs
