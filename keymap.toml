@@ -101,7 +101,7 @@ keymap = [
 	{ on = [ "c", "d" ], run = "copy dirname",          desc = "Copy the directory path" },
 	{ on = [ "c", "f" ], run = "copy filename",         desc = "Copy the filename" },
 	{ on = [ "c", "n" ], run = "copy name_without_ext", desc = "Copy the filename without extension" },
-  { on = [ "c", "e" ], run = "shell -- ~/.config/yazi/escape-copy.sh %s", desc = "Copy path for Terminal" },
+  { on = [ "c", "e" ], run = "shell -- ~/.config/yazi/escape-copy.sh %d1", desc = "Copy dir path for Terminal" },
 
 	# Filter
 	{ on = "f", run = "filter --smart", desc = "Filter files" },
