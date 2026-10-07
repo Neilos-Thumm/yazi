@@ -61,9 +61,13 @@ download = [
 	{ run = "ya emit download --open %S", desc = "Download and open" },
 	{ run = "ya emit download %S",        desc = "Download" },
 ]
+obsidian = [
+	{ run = "obsidian-open %s", desc = "Open in Obsidian", for = "macos" },
+]
 
 [open]
 rules = [
+  { url = "*.md", use = ["edit", "obsidian", "reveal"] },
 	# Folder
 	{ url = "*/", use = [ "edit", "open", "reveal" ] },
 	# Text
