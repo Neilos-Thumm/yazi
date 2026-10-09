@@ -144,6 +144,7 @@ keymap = [
 	{ on = [ "g", "a" ],       run = "cd ~/Documents/ai",   desc = "Go ~/ai" },
 	{ on = [ "g", "p" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[2] Project",   desc = "Go to Project" },
 	{ on = [ "g", "r" ],       run = "cd -- /Users/parunthummadetsak/Documents/[6-10] Documents/[8] Resume & Portfolio",   desc = "Go to Resume" },
+	{ on = [ "g", "o" ],       run = "cd -- /Users/parunthummadetsak/Documents/Obsidian/Local Vault/Notes",   desc = "Go to Obsidian Notes/" },
 	{ on = [ "g", "u" ],       run = "cd -- /Users/parunthummadetsak/.claude",   desc = "Go to .claude" },
 	{ on = [ "g", "b" ],       run = "cd -- /Users/parunthummadetsak/.local/bin",   desc = "Go to binaries" },
   
