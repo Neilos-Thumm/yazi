@@ -145,6 +145,7 @@ keymap = [
   { on = [ "g", "4" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[1] UQ/[1.1] Material/Year3/Y3S1/INFS3208", desc = "go to INFS3208" },
   { on = [ "g", "e" ],       run = "cd /Volumes", desc = "go to External Drive" },
   { on = [ "g", "s" ],       run = "cd -- /Users/parunthummadetsak/Desktop/Screenshot", desc = "go to Screenshot" },
+  { on = [ "g", "m" ],       run = "cd -- /Users/parunthummadetsak/Movies", desc = "go to Movies" },
 	{ on = [ "g", "a" ],       run = "cd ~/Documents/ai",   desc = "Go ~/ai" },
 	{ on = [ "g", "p" ],       run = "cd -- /Users/parunthummadetsak/Documents/[1-5] Study/[2] Project",   desc = "Go to Project" },
 	{ on = [ "g", "r" ],       run = "cd -- /Users/parunthummadetsak/Documents/[6-10] Documents/[8] Resume & Portfolio",   desc = "Go to Resume" },
